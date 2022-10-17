@@ -124,6 +124,7 @@ data_mhs input_data (data_mhs mhs){
 		cin.ignore();
 		cout<<"Masukkan Matakuliah Mahasiswa : ";
 		getline(cin,mhs.matakuliah[i]);
+		cin.ignore();
 		cout<<"data telah diinput\n\n";
 	}
 	return mhs;
